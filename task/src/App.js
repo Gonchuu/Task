@@ -7,6 +7,7 @@ import Ejemplo4 from './hooks/Ejemplo4'
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import GreetingStyled from './components/pure/GreetingStyled';
 import Father from './components/container/Father';
+import Optionalrender from './components/pure/OpcionalRender';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         </Ejemplo4> */}
         {/* <GreetingStyled name = 'Gonza'></GreetingStyled> */}
         {/* <Father></Father> */}
+        {/* <Optionalrender></Optionalrender> */}
       {/* </header> */}
     </div>
   );
