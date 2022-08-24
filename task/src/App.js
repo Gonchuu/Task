@@ -8,6 +8,7 @@ import MiComponenteConContexto from './hooks/Ejemplo3';
 import GreetingStyled from './components/pure/GreetingStyled';
 import Father from './components/container/Father';
 import Optionalrender from './components/pure/OpcionalRender';
+import LoginFormik from './components/pure/forms/LoginFormik';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" /> */}
         {/* componente de listado de tareas */}
-        <TaskListComponent></TaskListComponent>
+        {/* <TaskListComponent></TaskListComponent> */}
         {/* <Ejemplo1></Ejemplo1> */}
         {/* <Ejemplo2></Ejemplo2> */}
         {/* <MiComponenteConContexto></MiComponenteConContexto> */}
@@ -26,6 +27,7 @@ function App() {
         {/* <GreetingStyled name = 'Gonza'></GreetingStyled> */}
         {/* <Father></Father> */}
         {/* <Optionalrender></Optionalrender> */}
+        <LoginFormik></LoginFormik>
       {/* </header> */}
     </div>
   );
