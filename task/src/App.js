@@ -12,6 +12,7 @@ import LoginFormik from './components/pure/forms/LoginFormik';
 import RegisterFormik from './components/pure/forms/RegisterFormik';
 import AsyncExample from './components/pure/AsyncExample';
 import ObservableExample from './components/pure/ObservableExample';
+import Fetchexample from './components/pure/FetchService';
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
         {/* <LoginFormik></LoginFormik> */}
         {/* <RegisterFormik></RegisterFormik> */}
         {/* <AsyncExample></AsyncExample> */}
-        <ObservableExample></ObservableExample>
+        {/* <ObservableExample></ObservableExample> */}
+        <Fetchexample></Fetchexample>
       {/* </header> */}
     </div>
   );
