@@ -13,6 +13,8 @@ import RegisterFormik from './components/pure/forms/RegisterFormik';
 import AsyncExample from './components/pure/AsyncExample';
 import ObservableExample from './components/pure/ObservableExample';
 import Fetchexample from './components/pure/FetchService';
+import Axiosexample from './components/pure/AxiosExample';
+import Axioscrudexample from './components/pure/axiosCRUDExample';
 
 
 function App() {
@@ -35,7 +37,9 @@ function App() {
         {/* <RegisterFormik></RegisterFormik> */}
         {/* <AsyncExample></AsyncExample> */}
         {/* <ObservableExample></ObservableExample> */}
-        <Fetchexample></Fetchexample>
+        {/* <Fetchexample></Fetchexample> */}
+        {/* <Axiosexample></Axiosexample> */}
+        <Axioscrudexample></Axioscrudexample>
       {/* </header> */}
     </div>
   );
