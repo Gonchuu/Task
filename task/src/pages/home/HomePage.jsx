@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <div>
         <h1> Home Page </h1>
-        <button onClick={() => navigate('/profile')}>
+        <button className='button' onClick={() => navigate('/profile')}>
                 Go To Profile
         </button>
     </div>

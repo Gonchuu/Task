@@ -16,13 +16,13 @@ const AboutPage = () => {
         About | FAQs Page
         </h1>
         <div>
-            <button onClick={() => navigate('/')}>
+            <button className='button' onClick={() => navigate('/')}>
                 Go To Home
             </button>
-            <button onClick={ () => navigate(-1) }>
+            <button className='button' onClick={ () => navigate(-1) }>
                 Go Back
             </button>
-            <button onClick={ () => navigate(1) }>
+            <button className='button' onClick={ () => navigate(1) }>
                 Go Forward
             </button>
         </div>

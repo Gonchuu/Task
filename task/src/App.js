@@ -23,7 +23,7 @@ function App() {
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" /> */}
         {/* componente de listado de tareas */}
-        {/* <TaskListComponent></TaskListComponent> */}
+        <TaskListComponent></TaskListComponent>
         {/* <Ejemplo1></Ejemplo1> */}
         {/* <Ejemplo2></Ejemplo2> */}
         {/* <MiComponenteConContexto></MiComponenteConContexto> */}
@@ -39,7 +39,7 @@ function App() {
         {/* <ObservableExample></ObservableExample> */}
         {/* <Fetchexample></Fetchexample> */}
         {/* <Axiosexample></Axiosexample> */}
-        <Axioscrudexample></Axioscrudexample>
+        {/* <Axioscrudexample></Axioscrudexample> */}
       {/* </header> */}
     </div>
   );

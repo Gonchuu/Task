@@ -52,7 +52,7 @@ function AppRoutingOne() {
           <Route path='/' element={<HomePage />} />
           <Route path='login' element={<LoginPage />} />
           <Route path='about' element={<AboutPage />} />
-          <Route path='profile' element={logged ? <ProfilePage /> : <Navigate to='/login' /> } />
+          <Route path='profile' element={ <ProfilePage />} />
 
 
           <Route path='tasks' element={<TasksPages />} />

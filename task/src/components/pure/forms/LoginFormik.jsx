@@ -75,7 +75,7 @@ const LoginFormik = () => {
                                     <ErrorMessage name="password" component='div'></ErrorMessage>
                                 )
                             }
-                            <button type="submit">Login</button>
+                            <button className='button' type="submit">Login</button>
                             {isSubmitting ? (<p>Login your credentials...</p>): null}
                         </Form>
                 )}
